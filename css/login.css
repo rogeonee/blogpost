@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Arial';
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  flex-basis: 50%;
+  background-image: url(../assets/header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.image-text {
+ color: #fff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ margin: 0;
+ text-transform: uppercase;
+ font-weight: 700;
+ font-size: 40px;
+}
+
+.form {
+  flex-basis: 50%;
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.form-link {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+.form-link__button {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.form-link__button:hover {
+  color: #0475D3;
+}
+
+.form-link__return {
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='text'] {
+  width: 100%;
+  padding: 20px 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #231F20;
+  border-radius: 30px;
+  height: 5px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #0475D3;
+  color: #fff;
+  padding: 12px 10px;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid #231F20;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #231F20;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image,
+  .form {
+    flex-basis: 100%;
+    justify-content: unset;
+  }
+
+  .image-text {
+    display: none;
+  }
+}

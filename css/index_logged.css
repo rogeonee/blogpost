@@ -1,0 +1,83 @@
+.navbar-fixed-left + .container { padding-left: 140px; }
+
+.navbar-fixed-left {
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+    background-color: #0475D3;
+}
+
+.header { margin-top: 2em; }
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.panel.panel-body > div > img {
+    border-radius: 10%;
+    width: 100%;
+}
+
+img#create_b { display: inline; }
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+#logo { margin-top: 5em; }
+#home { margin-top: 6em; }
+.icon { margin-top: 2.5em; }
+#logout { position: relative; bottom: -230px; }
+
+#profile {
+    display: flex;
+    justify-content: center;
+}
+
+.tag {
+    border-radius: 20px;
+    padding: 8px;
+    display: inline-block;
+    color: white;
+    background-color: #0475D3;
+}
+
+.panel.panel-body {
+    display: flexbox;
+    box-shadow: #ECECEC 1px 1px;
+    border-radius: 20px;
+    border: #ECECEC solid 0.5px;
+}
+
+#pfp { position: relative; }
+
+#pname {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    position: relative;
+    color: black;
+    top: 3px;
+}
+
+h2 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: large;
+}
+
+#search_bar { 
+    border-radius: 20px; 
+    width: 100%; 
+}
+
+.btn.btn-primary { background-color: #0475D3; }

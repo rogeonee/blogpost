@@ -1,0 +1,58 @@
+.navbar-fixed-left + .container { padding-left: 140px; }
+
+.navbar-fixed-left {
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+    background-color: #0475D3;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#logo { margin-top: 5em; }
+#home { margin-top: 6em; }
+.icon { margin-top: 2.5em; }
+#logout { position: relative; bottom: -230px; }
+
+.container { padding-right: 60px; }
+
+label { font-size: 20px; }
+
+h1 { text-align: center; }
+
+#title { width: 50%; }
+
+#tag { width: 25%; }
+
+textarea { resize: none; }
+
+button {
+    background-color: #0475D3;
+    color: #fff;
+    padding: 12px 10px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #231F20;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.control-fileupload {
+	display: block;
+	border: 1px solid #d6d7d6;
+	background: #FFF;
+	border-radius: 4px;
+	width: 25%;
+	height: 36px;
+	line-height: 36px;
+	padding: 0px 10px 2px 10px;
+    overflow: hidden;
+    position: relative;
+}
